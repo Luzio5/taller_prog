@@ -1,0 +1,4 @@
+rootProject.name = 'tprog'
+include 'tarea2'
+include 'tarea1'
+include 'core'

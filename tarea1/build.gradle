@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(8))
+    }
+}
+
+dependencies {
+    implementation 'com.toedter:jcalendar:1.4'
+    implementation project(':core')
+}
+
+application {
+    mainClass = 'com.entrenamosuy.tarea1.view.App'
+}
+
+test {
+    useJUnitPlatform()
+}

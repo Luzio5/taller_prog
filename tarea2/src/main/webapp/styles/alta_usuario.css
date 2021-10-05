@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.form-signup {
+    width: 100%;
+    max-width: 330px;
+    margin: 0px auto;
+}
+
+span {
+    display: block;
+}
